@@ -1,0 +1,10 @@
+Installed image tool, one isolated donor motif, requested square 1024x1024.
+Actual generated donor: 1254x1254 RGB8 PNG. The donor was replaced in-place
+by the finished wall after bounded pigment transfer; no extra picture retained.
+
+Prompt:
+One isolated prehistoric pigment motif, centered on a pure white background for transfer to an existing cave painting. A small knotted red ochre reed is parted into three strands revealing a tiny chalk white pebble hidden between them. Hand rubbed earth pigment with uneven charcoal accents, worn and grainy Lascaux cave painting style, simple and primitive, horizontal composition. Only red ochre, chalk white indicated with pale warm gray edges, and charcoal black. No cave background. No letters, no numbers, no symbols, no hands, no frogs, no text, no logo, no frame. The motif occupies the central half of the square with generous blank white margins.
+
+Transfer: see mark-38-process.json. Only new pigment was transferred to bare
+central-right rock, with the inherited wall as the exact base. Source cave,
+Pepe, both five-digit hands and all other ancestral marks remain unchanged.

@@ -1,0 +1,33 @@
+{
+  "wall": {
+    "path": "artifacts/line-2/wall-v19.png",
+    "alias": "artifacts/line-2/wall.png",
+    "format": "PNG RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3978573,
+    "sha256": "d0d186cb5a10ed3955ad9031db15437631352abab0c8b80420ed5b1addd3d996"
+  },
+  "preview": {
+    "path": "dist/line-2/38.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 91040,
+    "sha256": "cb4d82ae48cc5d19ff7a351a208586a4d0f07c10e02a4d8519ee00e70380a921",
+    "quality": 40
+  },
+  "ancestor": "artifacts/line-2/wall-v18.png",
+  "ancestor_sha256": "1d20dd026ce17cd0efec6262feadb14a0de183a38545802116030e74ac2db0c4",
+  "changed_pixels": 4524,
+  "changed_bounds_half_open": [
+    653,
+    554,
+    808,
+    607
+  ],
+  "outside_transfer_box_identical": true,
+  "review": "Full wall and preview inspected locally: ancestral Pepe, both five-digit hands, rock, cracks, framing and light unchanged. No hand added. New motif is ochre knotted reeds around a chalk pebble. No text, numbers, logos, borders or prohibited symbols observed.",
+  "unmet_visual_requirements": [],
+  "visual_limits": "Fine pigment detail diminishes in 512px preview; local review is not independent artistic certification."
+}

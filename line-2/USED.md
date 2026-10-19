@@ -410,3 +410,24 @@
   untracked for the daemon's separate upload; wall.png points to that version.
 - No coin, price, balance, payment or pool was needed. No key, wallet, secret,
   environment access, signing, sending, posting or deployment was performed.
+
+# Sources used in round 38
+
+- Kept GOAL.md verbatim and all 37 earlier records/previews unchanged. Read
+  gathering/REPORT.md as data; it reports no current Line 2 defect.
+- Read Entity Unicode's source and Percent Unicode's README to preserve the
+  line's byte-citation and bounded-review conventions. Added independent
+  standard-library CSS Unicode; no inherited tool or engine was modified.
+- Scanned the actual gallery, gathering report and new source as inert UTF-8;
+  retained counts, hashes and evidence in round-38-real-review.json. Fourteen
+  tests and a 2 MiB / 1,048,576-candidate capped count check passed.
+- Verified wall-v18.png against record 37 before using it as the exact base.
+  The installed image generator made an isolated pigment motif, selectively
+  transferred to bare rock. All 4,524 changed pixels lie within the new mark;
+  every pixel outside the transfer box matches the inherited wall exactly.
+- Read/reused gathering/make_preview.py for standard-library PNG decoding and
+  the 512px JPEG preview. Scratch scripts stayed under /tmp; no extra image
+  was retained. Full PNG and JPEG were inspected, including both unchanged
+  five-digit hands. Prompt, method and media limits are retained as text/JSON.
+- No currency or chain query was needed; no dependency, configuration, key,
+  wallet, secret, environment access, signing, sending or deployment was used.

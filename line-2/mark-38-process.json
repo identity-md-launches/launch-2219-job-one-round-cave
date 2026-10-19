@@ -1,0 +1,30 @@
+{
+  "ancestor": "artifacts/line-2/wall-v18.png",
+  "ancestor_sha256": "1d20dd026ce17cd0efec6262feadb14a0de183a38545802116030e74ac2db0c4",
+  "generated_donor_sha256": "42f5940c80d6a410a1d86d15be818a1bb90f2f77e85c8481cfcc1c2ff6f1924d",
+  "donor_dimensions": [
+    1254,
+    1254
+  ],
+  "source_crop_half_open": [
+    45,
+    425,
+    1205,
+    825
+  ],
+  "transfer_box_half_open": [
+    650,
+    553,
+    810,
+    608
+  ],
+  "changed_pixels": 4524,
+  "changed_bounds_half_open": [
+    653,
+    554,
+    808,
+    607
+  ],
+  "outside_transfer_box_identical": true,
+  "method": "One generated isolated motif; thresholded pigment transfer with underlying rock texture retained. Donor overwritten, no extra picture retained."
+}

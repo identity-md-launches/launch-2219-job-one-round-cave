@@ -1,0 +1,334 @@
+[
+  {
+    "selected_file": "dist/index.html",
+    "interpretation": "Read-only lexical candidates, not evidence of malicious content. Engine includes intentional synthetic and parsing literals. Gallery is actual workspace markup.",
+    "report": {
+      "schema_version": 1,
+      "tool": "css-unicode/1",
+      "source_sha256": "c3d39e9355afe44eba1c1195cbe03fb8e5043399b9ba7e67954618e6fc226abe",
+      "source_bytes": 80354,
+      "unicode_version": "15.0.0",
+      "analysis_complete": true,
+      "escape_count": 0,
+      "counts_by_kind": {},
+      "detail_cap": 12,
+      "retained_details": 0,
+      "omitted_details": 0,
+      "details": [],
+      "coverage": "Non-overlapping CSS-style backslash candidates, including printable ASCII escapes.",
+      "limitations": [
+        "Lexical candidates only: no CSS tokenization, identifier validity, HTML parsing, cascade or rendering.",
+        "Candidates inside comments and other non-CSS text are included; presence does not establish browser interpretation or intent.",
+        "Hex escapes consume one to six digits and at most one CSS whitespace terminator (CRLF is one preprocessed newline).",
+        "Escaped NUL, surrogate and out-of-range values map to U+FFFD; original bytes and written hex value remain evidence.",
+        "Backslash-newline is reported without a decoded scalar: string continuation and invalid identifier escape differ by context.",
+        "Trailing backslash has no decoded scalar; literal Unicode, other encodings and recursive decoding are outside scope.",
+        "Ranges are zero-based half-open original UTF-8 bytes; lines and byte columns are one-based, LF-only, not CSS preprocessed coordinates.",
+        "ASCII JSON protects terminal display, not HTML insertion. Hashes identify bytes, not authenticity. Zero escapes does not establish safety."
+      ]
+    }
+  },
+  {
+    "selected_file": "gathering/REPORT.md",
+    "interpretation": "Read-only lexical candidates, not evidence of malicious content. Engine includes intentional synthetic and parsing literals. Gallery is actual workspace markup.",
+    "report": {
+      "schema_version": 1,
+      "tool": "css-unicode/1",
+      "source_sha256": "35480132ac31fd8fa44531737ad004b9fc70c6a355c99de27fb793fbeb757c21",
+      "source_bytes": 12413,
+      "unicode_version": "15.0.0",
+      "analysis_complete": true,
+      "escape_count": 0,
+      "counts_by_kind": {},
+      "detail_cap": 12,
+      "retained_details": 0,
+      "omitted_details": 0,
+      "details": [],
+      "coverage": "Non-overlapping CSS-style backslash candidates, including printable ASCII escapes.",
+      "limitations": [
+        "Lexical candidates only: no CSS tokenization, identifier validity, HTML parsing, cascade or rendering.",
+        "Candidates inside comments and other non-CSS text are included; presence does not establish browser interpretation or intent.",
+        "Hex escapes consume one to six digits and at most one CSS whitespace terminator (CRLF is one preprocessed newline).",
+        "Escaped NUL, surrogate and out-of-range values map to U+FFFD; original bytes and written hex value remain evidence.",
+        "Backslash-newline is reported without a decoded scalar: string continuation and invalid identifier escape differ by context.",
+        "Trailing backslash has no decoded scalar; literal Unicode, other encodings and recursive decoding are outside scope.",
+        "Ranges are zero-based half-open original UTF-8 bytes; lines and byte columns are one-based, LF-only, not CSS preprocessed coordinates.",
+        "ASCII JSON protects terminal display, not HTML insertion. Hashes identify bytes, not authenticity. Zero escapes does not establish safety."
+      ]
+    }
+  },
+  {
+    "selected_file": "line-2/tools/css-unicode/css_unicode.py",
+    "interpretation": "Read-only lexical candidates, not evidence of malicious content. Engine includes intentional synthetic and parsing literals. Gallery is actual workspace markup.",
+    "report": {
+      "schema_version": 1,
+      "tool": "css-unicode/1",
+      "source_sha256": "9805eca45dbdc1a7aca1ed036fa969cdfe47c8ce2c04d36aa545432d1b428fec",
+      "source_bytes": 6433,
+      "unicode_version": "15.0.0",
+      "analysis_complete": true,
+      "escape_count": 20,
+      "counts_by_kind": {
+        "ascii": 15,
+        "non-ascii-or-control": 4,
+        "replacement": 1
+      },
+      "detail_cap": 12,
+      "retained_details": 12,
+      "omitted_details": 8,
+      "details": [
+        {
+          "source_byte_range": [
+            319,
+            321
+          ],
+          "source_line": 14,
+          "source_byte_column": 12,
+          "source_escape_hex": "5c74",
+          "source_span_sha256": "9e6ce97799490c6ac1603cbe55d9189123e9f9629592de5df9d3094a646b37a8",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+0074",
+            "name": "LATIN SMALL LETTER T",
+            "category": "Ll",
+            "utf8_hex": "74"
+          }
+        },
+        {
+          "source_byte_range": [
+            321,
+            323
+          ],
+          "source_line": 14,
+          "source_byte_column": 14,
+          "source_escape_hex": "5c6e",
+          "source_span_sha256": "a80e516bfb196e1c48a9acbe39da8fceb6bc82e0d991b8a990b8f3239c7efaed",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+006E",
+            "name": "LATIN SMALL LETTER N",
+            "category": "Ll",
+            "utf8_hex": "6e"
+          }
+        },
+        {
+          "source_byte_range": [
+            323,
+            325
+          ],
+          "source_line": 14,
+          "source_byte_column": 16,
+          "source_escape_hex": "5c72",
+          "source_span_sha256": "156de42b059b0f0973813c09f276dc9be573a1e06a1991f7775986df8fdabbe0",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+0072",
+            "name": "LATIN SMALL LETTER R",
+            "category": "Ll",
+            "utf8_hex": "72"
+          }
+        },
+        {
+          "source_byte_range": [
+            325,
+            327
+          ],
+          "source_line": 14,
+          "source_byte_column": 18,
+          "source_escape_hex": "5c66",
+          "source_span_sha256": "3599d51417a7c6c1252a2abda56acf9b53d4f3f8ff86c6b906316598ac77a3c4",
+          "form": "hex",
+          "kind": "non-ascii-or-control",
+          "written_hex_value": 15,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+000F",
+            "name": "UNNAMED",
+            "category": "Cc",
+            "utf8_hex": "0f"
+          }
+        },
+        {
+          "source_byte_range": [
+            343,
+            348
+          ],
+          "source_line": 15,
+          "source_byte_column": 15,
+          "source_escape_hex": "5c34353620",
+          "source_span_sha256": "afe79211587a5b9526f61fcc10c9b1e6f4fa8249a3a98085b9134ff39a6dd147",
+          "form": "hex",
+          "kind": "non-ascii-or-control",
+          "written_hex_value": 1110,
+          "consumed_whitespace_hex": "20",
+          "decoded_scalar": {
+            "codepoint": "U+0456",
+            "name": "CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I",
+            "category": "Ll",
+            "utf8_hex": "d196"
+          }
+        },
+        {
+          "source_byte_range": [
+            362,
+            368
+          ],
+          "source_line": 15,
+          "source_byte_column": 34,
+          "source_escape_hex": "5c3230326520",
+          "source_span_sha256": "734af10060d0880fb3cc9232a5c018bde8f4529e5956e83790e08d6c9216d9a0",
+          "form": "hex",
+          "kind": "non-ascii-or-control",
+          "written_hex_value": 8238,
+          "consumed_whitespace_hex": "20",
+          "decoded_scalar": {
+            "codepoint": "U+202E",
+            "name": "RIGHT-TO-LEFT OVERRIDE",
+            "category": "Cf",
+            "utf8_hex": "e280ae"
+          }
+        },
+        {
+          "source_byte_range": [
+            374,
+            378
+          ],
+          "source_line": 15,
+          "source_byte_column": 46,
+          "source_escape_hex": "5c356120",
+          "source_span_sha256": "8b499c5364d53801d692b373d7a6299c07c438a10bffdf8941a2d7533e70b611",
+          "form": "hex",
+          "kind": "ascii",
+          "written_hex_value": 90,
+          "consumed_whitespace_hex": "20",
+          "decoded_scalar": {
+            "codepoint": "U+005A",
+            "name": "LATIN CAPITAL LETTER Z",
+            "category": "Lu",
+            "utf8_hex": "5a"
+          }
+        },
+        {
+          "source_byte_range": [
+            860,
+            862
+          ],
+          "source_line": 27,
+          "source_byte_column": 26,
+          "source_escape_hex": "5c5c",
+          "source_span_sha256": "b11b4ca186c00769a40d69f084d0f73538b4c3942e13b0ae9b7c5ff763876e3c",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+005C",
+            "name": "REVERSE SOLIDUS",
+            "category": "Po",
+            "utf8_hex": "5c"
+          }
+        },
+        {
+          "source_byte_range": [
+            934,
+            936
+          ],
+          "source_line": 30,
+          "source_byte_column": 30,
+          "source_escape_hex": "5c6e",
+          "source_span_sha256": "a80e516bfb196e1c48a9acbe39da8fceb6bc82e0d991b8a990b8f3239c7efaed",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+006E",
+            "name": "LATIN SMALL LETTER N",
+            "category": "Ll",
+            "utf8_hex": "6e"
+          }
+        },
+        {
+          "source_byte_range": [
+            984,
+            986
+          ],
+          "source_line": 31,
+          "source_byte_column": 32,
+          "source_escape_hex": "5c6e",
+          "source_span_sha256": "a80e516bfb196e1c48a9acbe39da8fceb6bc82e0d991b8a990b8f3239c7efaed",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+006E",
+            "name": "LATIN SMALL LETTER N",
+            "category": "Ll",
+            "utf8_hex": "6e"
+          }
+        },
+        {
+          "source_byte_range": [
+            1274,
+            1276
+          ],
+          "source_line": 39,
+          "source_byte_column": 27,
+          "source_escape_hex": "5c72",
+          "source_span_sha256": "156de42b059b0f0973813c09f276dc9be573a1e06a1991f7775986df8fdabbe0",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+0072",
+            "name": "LATIN SMALL LETTER R",
+            "category": "Ll",
+            "utf8_hex": "72"
+          }
+        },
+        {
+          "source_byte_range": [
+            1276,
+            1278
+          ],
+          "source_line": 39,
+          "source_byte_column": 29,
+          "source_escape_hex": "5c6e",
+          "source_span_sha256": "a80e516bfb196e1c48a9acbe39da8fceb6bc82e0d991b8a990b8f3239c7efaed",
+          "form": "simple",
+          "kind": "ascii",
+          "written_hex_value": null,
+          "consumed_whitespace_hex": "",
+          "decoded_scalar": {
+            "codepoint": "U+006E",
+            "name": "LATIN SMALL LETTER N",
+            "category": "Ll",
+            "utf8_hex": "6e"
+          }
+        }
+      ],
+      "coverage": "Non-overlapping CSS-style backslash candidates, including printable ASCII escapes.",
+      "limitations": [
+        "Lexical candidates only: no CSS tokenization, identifier validity, HTML parsing, cascade or rendering.",
+        "Candidates inside comments and other non-CSS text are included; presence does not establish browser interpretation or intent.",
+        "Hex escapes consume one to six digits and at most one CSS whitespace terminator (CRLF is one preprocessed newline).",
+        "Escaped NUL, surrogate and out-of-range values map to U+FFFD; original bytes and written hex value remain evidence.",
+        "Backslash-newline is reported without a decoded scalar: string continuation and invalid identifier escape differ by context.",
+        "Trailing backslash has no decoded scalar; literal Unicode, other encodings and recursive decoding are outside scope.",
+        "Ranges are zero-based half-open original UTF-8 bytes; lines and byte columns are one-based, LF-only, not CSS preprocessed coordinates.",
+        "ASCII JSON protects terminal display, not HTML insertion. Hashes identify bytes, not authenticity. Zero escapes does not establish safety."
+      ]
+    }
+  }
+]

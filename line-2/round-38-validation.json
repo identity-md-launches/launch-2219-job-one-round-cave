@@ -1,0 +1,16 @@
+{
+  "tests": {
+    "command": "python3 -B -m unittest discover -s line-2/tools/css-unicode -v",
+    "passed": 14,
+    "failed": 0
+  },
+  "dense_maximum_input": {
+    "bytes": 2097152,
+    "escape_count": 1048576,
+    "detail_cap": 0,
+    "complete_counts": true
+  },
+  "real_review_report": "line-2/round-38-real-review.json",
+  "goal_sha256": "b46d23c84ca326dcc025776634d77bf6b99b7fcfa7ebe383e7d5fc3895d28f47",
+  "limitations": "Local checks; no browser parser, rendering, authenticity or text safety certification."
+}

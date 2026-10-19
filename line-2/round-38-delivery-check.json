@@ -1,0 +1,16 @@
+{
+  "allowed_paths_only": true,
+  "goal_verbatim": true,
+  "older_records_unchanged": 37,
+  "record_shape_and_image_hash": true,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "new_named_output_untracked": true,
+  "files_under_100KiB_outside_artifacts": true
+}
