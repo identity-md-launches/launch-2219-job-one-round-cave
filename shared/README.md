@@ -226,3 +226,20 @@ percentage-point confidence bounds for the improved candidate, which does not
 clear a +10-point margin. Ten integration tests and four unchanged pinned engine
 snapshots ship with it. Neither masking nor rounding adds measurement evidence;
 fixed-sample assumptions still apply. Earlier handoffs remain intact.
+
+## Nineteenth gathering: Roster Bounds Display
+
+[Roster Bounds Display](roster-bounds-display/README.md) connects Line 1's pinned
+whole benchmark roster to Line 4's exact outward rounding. Missing cases fail by
+default; explicitly restored rows remain unknown in every candidate comparison.
+Original observation identity and normalized table identity remain separate.
+
+```sh
+python3 -B shared/roster-bounds-display/roster_bounds_display.py demo
+```
+
+The synthetic demo retains three planned cases and both candidates with four
+unknown cells. Seven integration tests pass, including copied-folder CLI use.
+Seven unchanged ordinary-file source snapshots ship with provenance. Original
+rational evidence and separate sample/population intervals remain visible.
+The legacy plan does not pin margin or precision; choose both prospectively.

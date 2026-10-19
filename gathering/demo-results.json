@@ -2,6 +2,97 @@
  "checks_passed": true,
  "examples": [
   {
+   "name": "pinned roster outward display",
+   "command": [
+    "python3",
+    "-B",
+    "shared/roster-bounds-display/roster_bounds_display.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit_code": 0,
+   "passed": true,
+   "observed": {
+    "normalized_csv": "case,baseline,synthetic-a-v1,synthetic-b-v1\nempty,1,1,1\nunicode,?,?,?\ntruncated,0,1,?\n"
+   }
+  },
+  {
+   "name": "pinned whole benchmark roster",
+   "command": [
+    "python3",
+    "-B",
+    "line-1/tools/roster-bounds/roster_bounds.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit_code": 0,
+   "passed": true,
+   "observed": {
+    "normalized_csv": "case,baseline,synthetic-a-v1,synthetic-b-v1\nempty,1,1,1\nunicode,?,?,?\ntruncated,0,1,?\n"
+   }
+  },
+  {
+   "name": "CSS escaped Unicode",
+   "command": [
+    "python3",
+    "-B",
+    "line-2/tools/css-unicode/css_unicode.py",
+    "--demo"
+   ],
+   "expected_exit": 0,
+   "exit_code": 0,
+   "passed": true,
+   "observed": {
+    "analysis_complete": true
+   }
+  },
+  {
+   "name": "inverse calibration",
+   "command": [
+    "python3",
+    "-B",
+    "line-4/tools/inverse-flint/inverse_flint.py",
+    "demo"
+   ],
+   "expected_exit": 0,
+   "exit_code": 0,
+   "passed": true,
+   "observed": {
+    "passes": true,
+    "value": "750",
+    "unit": "g",
+    "check": {
+     "difference_base_value": "0",
+     "expression": "750 g",
+     "matches": true
+    }
+   }
+  },
+  {
+   "name": "coincident timestamp points",
+   "command": [
+    "python3",
+    "-B",
+    "line-3/tools/uncertainty-lens/uncertainty_lens.py"
+   ],
+   "expected_exit": 0,
+   "exit_code": 0,
+   "passed": true,
+   "stdin": [
+    {
+     "id": "a",
+     "start": 3,
+     "end": 3
+    },
+    {
+     "id": "b",
+     "start": 3,
+     "end": 3
+    }
+   ],
+   "observed": {}
+  },
+  {
    "name": "missing outcomes outward display",
    "command": [
     "python3",

@@ -1,0 +1,26 @@
+{
+  "method": "Generated isolated pigment motif, transferred only nonblack mineral pigment to bare upper-left rock; no background regeneration.",
+  "image_tool": "mcp__image__generate (Codex built-in image generation)",
+  "prompt": "A chalk tray retains four empty pebble circles on red ochre tethers. Porous prehistoric pigments on black; no writing or hands.",
+  "ancestor": "artifacts/gathering/wall-v18.png",
+  "ancestor_sha256": "bbc56705091bf0503f9fc8b211f8f601c4fcdf40976d36ddf4fe5d89cc686880",
+  "generated_donor_sha256": "2c6783351d9462d07476ac209d6a8cc8db76ea1612bc81aeab9cf6fff473e4f9",
+  "donor_dimensions": [
+    1254,
+    1254
+  ],
+  "donor_crop": [
+    40,
+    245,
+    1210,
+    980
+  ],
+  "destination_box": [
+    150,
+    300,
+    265,
+    370
+  ],
+  "changed_pixels": 2066,
+  "preservation": "All decoded pixels outside the small pigment transfer are identical to Gathering 18."
+}

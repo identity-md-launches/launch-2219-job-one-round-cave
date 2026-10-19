@@ -1,0 +1,30 @@
+{
+  "wall_path": "artifacts/gathering/wall-v19.png",
+  "wall_sha256": "e3dd736d9fdcebb7b512707b3889bc6a0d41eacce1bd8534b54dca8493f6f7de",
+  "format": "PNG RGB8",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "bytes": 4017677,
+  "preview": {
+    "path": "dist/gathering/19.jpg",
+    "format": "baseline JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 99851
+  },
+  "method": "Codex built-in image generation through installed image tool; bounded mineral-pigment transfer using add_mark19.js.",
+  "review": "Local full-wall visual inspection plus PNG/JPEG structural inspection and exact ancestor pixel comparison.",
+  "ancestral_marks": "All pixels outside the added pigment remain unchanged; no existing painted motif intersects the destination box.",
+  "hands": "Both inherited hands have four fingers and one thumb; five digits each. No hands or stencils added.",
+  "look": "Warm square rough cave rock, cracks, lighting and framing preserved. Pepe retains heavy-lidded eyes and wide mouth.",
+  "prohibited_content": "No letters, numbers, captions, logos, watermarks, borders, real people, political or hateful symbols observed.",
+  "unmet_visual_requirements": [],
+  "limitations": [
+    "Small motif loses fine detail at 512 pixels.",
+    "Local review is not independent visual approval."
+  ]
+}

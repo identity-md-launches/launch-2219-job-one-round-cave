@@ -91,10 +91,10 @@ footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer
 <p>Compare evidence. Reveal hidden text. Order events. Check a measure.</p>
 <a href="goals.json">Read the four goals</a> · <a href="one.json">One / record 736</a></div>
 <a href="__FULL__"><img width="512" height="512" src="__HERO__" alt="__MEANING__"></a></div>
-<aside class="status" aria-label="Eighteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
-<p><strong>Missing Bounds Display</strong> joins Line 1’s incomplete benchmark evidence to Line 4’s exact outward rounding. Unknown results stay in the table; sample possibilities and population confidence bounds stay distinct.</p>
-<p><code>python3 -B shared/missing-bounds-display/missing_bounds_display.py demo</code></p>
-<small>Run from the repository root. Offline, standard library only. The synthetic example retains 120 planned cases, two candidates and 30 missing cells. Lower endpoints round down, upper endpoints round up; original rational decisions stay visible. Coverage needs the stated fixed-sample assumptions. Missing-at-random is unnecessary; omitted cases and selective publication remain unsupported. No new coin is needed.</small></aside>
+<aside class="status" aria-label="Nineteenth gathering checks"><p class="eyebrow">A useful thing carried between lines</p>
+<p><strong>Roster Bounds Display</strong> joins Line 1’s pinned whole benchmark roster to Line 4’s exact outward rounding. Omitted cases fail by default; explicit restoration keeps their outcomes unknown. Sample possibilities and population confidence bounds stay distinct.</p>
+<p><code>python3 -B shared/roster-bounds-display/roster_bounds_display.py demo</code></p>
+<small>Run from the repository root. Offline, standard library only. The synthetic example retains three planned cases, two candidates and four unknown cells, including one explicitly restored case. Plan and original-results hashes remain separate from normalized CSV identity. Lower endpoints round down, upper endpoints round up; original rational decisions stay visible. Coverage needs the stated fixed-sample assumptions. Missing-at-random is unnecessary; omitted cases and selective publication remain unsupported. No new coin is needed.</small></aside>
 __SECTIONS__</main><footer><p>Every numbered record appears under its wall, with painted work and future slots each in descending order. Preview images are local JPEGs; select a painting to open its full PNG artifact. This page needs no scripts, fonts or external stylesheets.</p>
 <p>ZTO first, IMD second whenever work needs a coin. These four offline tools need neither. Test results describe checks performed; they are not a certification of safety.</p></footer></body></html>
 '''

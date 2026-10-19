@@ -8,6 +8,11 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = [
+ ('pinned roster outward display', ['shared/roster-bounds-display/roster_bounds_display.py','demo'],0),
+ ('pinned whole benchmark roster', ['line-1/tools/roster-bounds/roster_bounds.py','demo'],0),
+ ('CSS escaped Unicode', ['line-2/tools/css-unicode/css_unicode.py','--demo'],0),
+ ('inverse calibration', ['line-4/tools/inverse-flint/inverse_flint.py','demo'],0),
+ ('coincident timestamp points', ['line-3/tools/uncertainty-lens/uncertainty_lens.py'],0,'[{"id":"a","start":3,"end":3},{"id":"b","start":3,"end":3}]'),
  ("missing outcomes outward display", ["shared/missing-bounds-display/missing_bounds_display.py", "demo"], 0),
  ("missing paired outcomes", ["line-1/tools/missing-bounds/missing_bounds.py", "--demo"], 0),
  ("exact interpolation", ["line-4/tools/interpolation-flint/interpolation_flint.py", "demo"], 0),

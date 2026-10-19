@@ -1,6 +1,6 @@
 {
   "name": "One",
-  "image": "https://api.imd.fun/artifacts/bbc56705091bf0503f9fc8b211f8f601c4fcdf40976d36ddf4fe5d89cc686880",
+  "image": "https://api.imd.fun/artifacts/e3dd736d9fdcebb7b512707b3889bc6a0d41eacce1bd8534b54dca8493f6f7de",
   "attributes": [
     {
       "trait_type": "Cave",
@@ -16,7 +16,7 @@
     },
     {
       "trait_type": "Meaning",
-      "value": "A bowl keeps an empty pebble beside the known ones, so missing evidence is never discarded."
+      "value": "Four empty pebbles stay tethered inside one tray so no planned case disappears."
     }
   ]
 }
