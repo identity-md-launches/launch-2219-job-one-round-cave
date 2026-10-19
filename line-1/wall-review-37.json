@@ -1,0 +1,43 @@
+{
+  "wall": "artifacts/line-1/wall-v19.png",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG RGB8",
+  "bytes": 2870767,
+  "sha256": "a0df478d8da122e9d930bedac2d6cff6d94292a32534936e25db6b65df0ff251",
+  "preview": {
+    "path": "dist/line-1/37.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 67610
+  },
+  "ancestor": "artifacts/line-1/wall-v18.png",
+  "ancestor_sha256": "2f048fede9b9f4ae37c233a4cbf25d412ebab6dbc5214a5c1e26c9f6ecf55a5d",
+  "generated_image_sha256": "47fff3c85a93bcdd4c49284e12eaa3f435d49cc65c0cd67938e235d9af44170b",
+  "bounds": [
+    240,
+    160,
+    385,
+    214
+  ],
+  "changed_pixels": 2199,
+  "charcoal_pixels": 584,
+  "chalk_pixels": 1217,
+  "ochre_pixels": 398,
+  "all_pixels_outside_bounds_identical": true,
+  "process": "Built-in image generator edited the inherited wall. Only new charcoal, chalk and ochre pigment in bare upper-left rock was transferred. Generated intermediate overwritten by the finished whole wall.",
+  "visual_review": {
+    "status": "locally inspected full PNG and 512-square JPEG",
+    "ancestral_marks": "preserved; outside-patch decoded pixels identical",
+    "pepe": "Both inherited figures retain wide mouths and heavy-lidded eyes.",
+    "hands": "Both figures have concealed hands; no new hands, digits, prints or stencils.",
+    "forbidden_elements": "No letters, numbers, captions, logos, signatures, borders or forbidden symbols observed.",
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "Fine worn pigment softens in the preview.",
+      "Local inspection is not independent visual approval."
+    ]
+  },
+  "preview_location_exception": "The assignment explicitly requires the numbered JPEG beside its JSON in dist/line-1."
+}

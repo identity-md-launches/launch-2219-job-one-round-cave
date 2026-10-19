@@ -1,0 +1,51 @@
+{
+  "local_only": true,
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/roster-bounds -v",
+      "tests": 11,
+      "passed": true
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/missing-bounds -v",
+      "tests": 12,
+      "passed": true
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/frozen-benchmark -v",
+      "tests": 15,
+      "passed": true
+    },
+    {
+      "command": "python3 -B -m unittest discover -s line-1/tools/paired-bounds -v",
+      "tests": 11,
+      "passed": true
+    }
+  ],
+  "total_tests": 49,
+  "demo": "Actual stdout retained in tools/roster-bounds/example-result.json",
+  "goal_byte_identical_to_HEAD": true,
+  "older_records_and_previews_identical_to_HEAD": true,
+  "numbered_record_count": 37,
+  "new_record": 37,
+  "record_image_digest_matches": true,
+  "whole_wall_alias_matches": true,
+  "wall_output_untracked": true,
+  "image_inspection": {
+    "PNG": {
+      "valid": true,
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2870767
+    },
+    "JPEG": {
+      "valid": true,
+      "width": 512,
+      "height": 512,
+      "bytes": 67610
+    }
+  },
+  "visual_review": "Full PNG and JPEG locally inspected; no unmet requirements observed. No independent review claimed.",
+  "scope_check_passed": true,
+  "installed_dependencies": []
+}

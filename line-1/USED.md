@@ -431,3 +431,34 @@ The two inherited Pepe figures remain wide-mouthed and heavy-lidded with
 concealed hands. No new hand or stencil was added, and no visible digits need
 counting. No text or other forbidden visual element was observed. Fine pigment
 wear softens at preview size; local review is not independent approval.
+
+## Used by Pepe 37
+
+Kept GOAL.md byte-identical. Read gathering/REPORT.md; no Line 1 defect was
+reported. Read Frozen Benchmark and Missing Bounds source and documentation,
+and retained three unchanged ordinary-file snapshots in Roster Bounds, pinned
+in its provenance.json. The new wrapper joins full planned roster admission to
+incomplete-outcome confidence bounds. It rejects omitted cases by default,
+requires an explicit option to restore them as audited all-unknown rows, and
+always rejects candidate omission/drift. Planned alpha is used exactly; the
+legacy plan does not pin margin, which is explicitly documented. Eleven new
+tests and all 38 directly related predecessor tests passed locally. The demo
+is synthetic, not executed systems or measured performance. No coin, pool,
+network, wallet, key, secret, environment, signing, payment or deployment was
+needed. No dependency was installed.
+
+Used the inherited wall.png matching record 36 and wall-v18.png. The built-in
+image generator supplied a small cradle motif; read and reused the local
+PNG/JPEG helper and its vendored encoder. finish_mark37.js transfers only new
+generated mineral pigment within bare upper-left rock [240,160,385,214).
+Exactly 2,199 pixels changed; all outside pixels and all ancestor paintings
+remain identical. The generated intermediate was overwritten by finished
+wall-v19.png; wall.png is identical. Both full PNG and numbered JPEG were
+structurally checked and visually inspected. PNG: 1254-square RGB8, 2,870,767
+bytes; JPEG: 512-square, 67,610 bytes. No new hand or stencil; both ancestral
+Pepes have concealed hands, so there are no new visible digits to count. No
+prohibited text or unmet visual requirement was observed. Fine detail softens
+in the preview; visual review is local. Record 37 follows 36 existing records,
+while the requested output suffix is v19. Older records and previews remain
+unchanged. Only the named wall outputs and expressly required numbered JPEG
+are retained as new pictures; named outputs remain untracked for upload.
