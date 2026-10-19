@@ -1,0 +1,72 @@
+{
+  "number": 36,
+  "tool": {
+    "name": "Uncertainty Lens",
+    "tests_passed": 10,
+    "standard_library_only": true,
+    "checked_behavior": [
+      "Original README demo: one definite order, two unresolved pairs",
+      "Coincident-point demo: zero definite orders, one unresolved pair",
+      "100 pairs of integer intervals, both input orders",
+      "Relative and absolute in-workspace files accepted; traversal and symlink escapes rejected before opening"
+    ]
+  },
+  "wall": {
+    "path": "artifacts/line-3/wall-v19.png",
+    "format": "PNG",
+    "color": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2847934,
+    "sha256": "bfe0b107c0010da29af791990f88c4179851bde0849bee1bd2f0641226e034de"
+  },
+  "preview": {
+    "path": "dist/line-3/36.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 68463
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-3/wall-v18.png",
+    "ancestor_sha256": "a0968c9f37f7642ccfb34c4dc55f78834378b47f011901a54a1aa8f0c21e0d44",
+    "patch_bounds_exclusive": [
+      925,
+      815,
+      1085,
+      860
+    ],
+    "changed_pixels": 2009,
+    "changed_outside_patch": 0
+  },
+  "image_process": {
+    "tool": "installed mcp__image__generate_image",
+    "donor_sha256": "7a6e0685c768db219a804500e073dfd81507b6932ea87b66faf17eea2610b54b",
+    "donor_dimensions": [
+      1536,
+      1024
+    ],
+    "donor_crop": [
+      430,
+      425,
+      1115,
+      600
+    ],
+    "method": "Select dark charcoal, bright chalk and central red-ochre pigment only; downsample and blend onto ancestor rock, preserving every other decoded pixel. Donor overwritten by final wall; no extra image retained.",
+    "prompt": "A tiny prehistoric cave pigment motif, centered on flat featureless warm brown ochre rock: two irregular charcoal pebble dots connected by one short uneven chalk-white curved stroke, with a single small red ochre dab in the middle of the stroke. Minimal sparse isolated motif occupying only central half of image. Hand made worn earth pigment thumb and burnt stick marks, Lascaux feeling, bare rough stone visible through the pigment, torchlight. No text, letters, numbers, logos, frames, hands, handprints, people, photographs or 3D. This is a pigment donor for an additive edit; keep motif simple and distinct against uniform brown rock."
+  },
+  "visual_review": {
+    "mark": "Two charcoal pebbles joined by a worn chalk curve and a red-ochre central dab on lower-right open rock.",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes unchanged.",
+    "hands": "No new hands or handprints. Inherited limbs unchanged; individual digits cannot be reliably counted.",
+    "letters_numbers_logos_borders_observed": false,
+    "unmet_visual_requirements": [
+      "Inherited Pepe hand digits are too indistinct to verify five digits per hand."
+    ],
+    "limitations": [
+      "Local full-wall and preview inspection, not independent visual approval.",
+      "Small pigment detail is reduced in the 512-pixel JPEG."
+    ],
+    "preserved": "Dimensions, framing, torchlight, rock, cracks, roots, Pepe and ancestral marks; every decoded pixel outside the patch is identical."
+  }
+}

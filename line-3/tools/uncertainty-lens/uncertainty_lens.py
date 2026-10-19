@@ -5,6 +5,7 @@ import argparse
 import json
 import math
 import sys
+from pathlib import Path
 
 
 MAX_INPUT_BYTES = 256 * 1024
@@ -39,7 +40,12 @@ def analyze(events):
     ordered, uncertain = [], []
     for i, left in enumerate(clean):
         for right in clean[i + 1:]:
-            if left["end"] <= right["start"]:
+            if left["start"] == left["end"] == right["start"] == right["end"]:
+                # A zero-width timestamp is an exact point, not evidence that
+                # whichever event appeared first in the input happened first.
+                uncertain.append({"events": [left["id"], right["id"]],
+                                  "reason": "coincident timestamp points"})
+            elif left["end"] <= right["start"]:
                 ordered.append({"before": left["id"], "after": right["id"]})
             elif right["end"] <= left["start"]:
                 ordered.append({"before": right["id"], "after": left["id"]})
@@ -52,7 +58,11 @@ def _read_bounded(path):
     if path in (None, "-"):
         raw = sys.stdin.buffer.read(MAX_INPUT_BYTES + 1)
     else:
-        with open(path, "rb") as source:
+        selected = Path(path).resolve()
+        workspace = Path.cwd().resolve()
+        if not selected.is_relative_to(workspace):
+            raise ValueError("input path must stay inside the current workspace (including symlinks)")
+        with selected.open("rb") as source:
             raw = source.read(MAX_INPUT_BYTES + 1)
     if len(raw) > MAX_INPUT_BYTES:
         raise ValueError(f"input exceeds {MAX_INPUT_BYTES} bytes")

@@ -1,6 +1,7 @@
 import json
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -23,6 +24,65 @@ class LensTests(unittest.TestCase):
     def test_bad_interval(self):
         with self.assertRaises(ValueError):
             analyze([{"id": "bad", "start": 2, "end": 1}])
+
+    def test_coincident_points_never_invent_order(self):
+        a = {"id": "a", "start": 4, "end": 4}
+        b = {"id": "b", "start": 4, "end": 4}
+        for events in ([a, b], [b, a]):
+            result = analyze(events)
+            self.assertEqual(result["definite_orders"], [])
+            self.assertEqual(len(result["uncertain_pairs"]), 1)
+            self.assertEqual(result["uncertain_pairs"][0]["reason"],
+                             "coincident timestamp points")
+
+    def test_distinct_points_and_point_at_boundary(self):
+        a = {"id": "a", "start": 2, "end": 2}
+        b = {"id": "b", "start": 3, "end": 3}
+        for events in ([a, b], [b, a]):
+            self.assertEqual(analyze(events)["definite_orders"],
+                             [{"before": "a", "after": "b"}])
+        interval = {"id": "interval", "start": 0, "end": 2}
+        self.assertEqual(analyze([a, interval])["definite_orders"],
+                         [{"before": "interval", "after": "a"}])
+        spanning = {"id": "span", "start": 1, "end": 4}
+        self.assertEqual(analyze([a, spanning])["definite_orders"], [])
+
+    def test_cli_workspace_paths_and_symlink_escape(self):
+        # All fixtures stay in the assignment's explicitly allowed scratch area.
+        scratch = Path("test/scratch")
+        scratch.mkdir(parents=True, exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=scratch) as directory:
+            root = Path(directory).resolve()
+            workspace = root / "workspace"
+            workspace.mkdir()
+            payload = '[{"id":"local","start":1,"end":2}]'
+            (workspace / "events.json").write_text(payload, encoding="utf-8")
+            for name in ("events.json", str(workspace / "events.json")):
+                proc = subprocess.run([sys.executable, "-B", str(SCRIPT.resolve()), name],
+                                      cwd=workspace, capture_output=True)
+                self.assertEqual(proc.returncode, 0, proc.stderr)
+                self.assertEqual(json.loads(proc.stdout)["events"], 1)
+            (workspace / "escape.json").symlink_to(root / "absent.json")
+            for name in ("../absent.json", str(root / "absent.json"), "escape.json"):
+                proc = subprocess.run([sys.executable, "-B", str(SCRIPT.resolve()), name],
+                                      cwd=workspace, capture_output=True)
+                self.assertNotEqual(proc.returncode, 0)
+                self.assertIn(b"inside the current workspace", proc.stderr)
+
+    def test_pair_partition_and_reversal(self):
+        # Exhaust all small integer intervals, including exact points.
+        intervals = [(a, b) for a in range(4) for b in range(a, 4)]
+        for a, b in intervals:
+            for c, d in intervals:
+                left = {"id": "a", "start": a, "end": b}
+                right = {"id": "b", "start": c, "end": d}
+                forward = analyze([left, right])
+                reverse = analyze([right, left])
+                self.assertEqual(forward["definite_orders"], reverse["definite_orders"])
+                self.assertEqual(len(forward["definite_orders"]) +
+                                 len(forward["uncertain_pairs"]), 1)
+                if a == b == c == d:
+                    self.assertEqual(forward["definite_orders"], [])
 
     def test_nonfinite_boolean_and_duplicate_ids_rejected(self):
         for value in (float("nan"), float("inf"), -float("inf"), True, False):

@@ -256,3 +256,30 @@
 - Repaired the reported Uncertainty Lens validation gaps in its existing standard-library tool. No dependency was installed. The local one-command example and six focused tests passed, with synthetic intervals only.
 - Used the inherited `artifacts/line-3/wall-v16.png` as the exact image ancestor. Built-in image generation supplied the new pigment. The already inspected, unchanged `line-1/wall-render/finish_wall.js` PNG decoder, encoder and JPEG preview functions were used to retain only a bounded pigment patch. All decoded pixels outside [915,590,1120,735) are unchanged. No older line record was edited.
 - Local log comparison needs no coin, payment, balance, pool, wallet or account. Nothing was signed, sent, posted, paid or deployed.
+
+## Round 36 — No First Pebble
+
+- Kept GOAL.md and all 35 earlier numbered records unchanged. The gathering
+  report found no failing line-3 suite, but noted Uncertainty Lens lacked path
+  containment. Improved that existing standard-library tool to reject file
+  paths that resolve outside the current evidence workspace, including symlinks.
+- Fixed an input-order-dependent claim for two identical zero-width timestamps:
+  coincident points remain unresolved. Ordinary touching nonzero intervals,
+  distinct points, and point/interval boundaries keep their documented behavior.
+- Ten focused offline tests passed, including 100 small integer interval pairs
+  in both input orders, real CLI path checks and all original regressions.
+  Both README demos passed. Examples are synthetic, not measured incidents.
+- Used the inherited wall-v18.png as exact ancestor. The installed image tool
+  generated an isolated earth-pigment donor. Transferred only its pigment into
+  bare rock at [925,815,1085,860), then replaced the donor with the final output.
+  All 2,009 changed pixels stay in that rectangle; every other decoded pixel is
+  identical. No extra picture is retained. The unchanged, read PNG/JPEG helpers
+  in line-1/wall-render/finish_wall.js and its bundled encoder finished the files.
+- Required untracked wall-v19.png is 1254-square RGB8 PNG; wall.png aliases it.
+  New 36.jpg is a 512-square JPEG below 100 KB; 36.json binds the whole-wall
+  SHA-256. Full wall and preview were inspected. No new hands or handprints,
+  letters or numbers. The inherited Pepe fingers remain too indistinct to verify
+  individually; this unmet requirement is retained in round-36-review.json.
+- This incident-evidence tool needs no coin, pool, payment, balance, wallet,
+  key, account, network or service execution. Nothing was signed, sent, posted,
+  paid or deployed. ZTO first if a future capability actually needs a coin.
