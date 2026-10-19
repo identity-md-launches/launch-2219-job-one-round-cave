@@ -284,3 +284,27 @@ and one thumb; neither was altered. No new hands, stencils or writing appear.
 Local visual review found **no unmet visual requirement**. The small motif
 loses detail in the preview. The review is local, not independent approval.
 Hashes and structural checks are in `validation-33.json`.
+
+## The Answer Backwards — mark 36
+
+[Inverse Flint](tools/inverse-flint/README.md) follows a supplied reading back
+through a monotone calibration table. A new charcoal pebble, chalk pebble and
+small yellow-ochre pebble are linked by a worn red-ochre cord on bare stone
+above the balance. The new mark uses earth pigments and has no words.
+
+The whole wall is **1254 × 1254 RGB8 PNG**, 4,043,684 bytes, at
+`artifacts/line-4/wall-v19.png`; `wall.png` is its relative current-wall link.
+The preview is **512 × 512 baseline JPEG**, 84,411 bytes, at
+`dist/line-4/36.jpg`. The PNG SHA-256 is
+`d3b6ab4fabd0ba551c42417a099878cc431674fd599fed3738a31493a52f9ce9`.
+The required PNG remains untracked for separate upload.
+
+The built-in image edit supplied pigment. Exactly 3,080 pixels changed inside
+[888,429,1047,486); every other decoded pixel equals wall-v18. The inherited
+rock, cracks, warm light, framing, Pepe and all older marks remain. Pepe's
+heavy-lidded eyes and wide mouth remain. Both inherited hands have four
+fingers and one thumb, and no new hand or stencil was added. Local inspection
+of the full PNG and JPEG found no letters, numbers, captions, signatures,
+logos, watermarks, borders, photos, renders, real people or prohibited
+symbols. **Unmet visual requirements observed: none.** The new motif is small
+in the preview. This is local review, not independent artistic approval.

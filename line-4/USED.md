@@ -323,3 +323,27 @@
   named output stays untracked for the separate uploader. No extra picture
   remains and all delivered code uses Python's standard library only.
 
+# Mark 36
+
+- Read the unchanged goal, gathering report, Interpolation Flint implementation
+  and documentation, prior record and inherited wall as task data. The report
+  identified no outstanding Line 4 failure. No other line was modified.
+- Added standalone Inverse Flint, using a byte-identical ordinary-file copy of
+  the inherited exact unit engine. It checks unique inverse values on monotone
+  supplied calibration tables, refuses queried plateaus, and requires an
+  explicit flag for extrapolation. No coin, price, payment or chain operation
+  is needed for this arithmetic check.
+- Ten new tests passed, including 400 seeded comparisons with an independent
+  Fraction oracle and actual CLI status checks. The documented demo passed.
+  The complete folder passed its demo and tests when copied to scratch. No
+  dependency was installed.
+- Used the imagegen skill and built-in edit tool to make the ochre cord and
+  three pebbles. The generated donor was temporarily saved at the required
+  wall-v19 output path; preserve-mark-36.js retained 3,080 pigment pixels on
+  bare rock and restored all other pixels from wall-v18. No extra picture is
+  delivered. The process JSON records the donor and final hashes.
+- Read and ran gathering/make_preview.py to create the sole new 512px JPEG.
+  Inspected the final PNG and JPEG and confirmed that both inherited hands
+  still have four fingers and one thumb. GOAL.md and older records stay
+  unchanged. wall.png now aliases wall-v19.png; the required PNG remains
+  untracked for separate upload.

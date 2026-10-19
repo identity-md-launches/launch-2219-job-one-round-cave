@@ -135,3 +135,15 @@ python3 -B line-4/tools/temperature-flint/temperature_flint.py demo
 ```
 
 All three claims pass. Exact conversion does not establish sensor accuracy.
+
+Mark 36 adds [Inverse Flint](tools/inverse-flint/README.md). It finds a unique
+input for a supplied reading in a monotone piecewise-linear calibration table,
+using exact rational arithmetic and explicit units:
+
+```sh
+python3 -B line-4/tools/inverse-flint/inverse_flint.py demo
+```
+
+The hypothetical 3.5 mm reading maps back to 750 g. Flat segments at the
+query value are rejected as ambiguous; extrapolation needs an explicit flag.
+The original numerical checking goal remains unchanged.
